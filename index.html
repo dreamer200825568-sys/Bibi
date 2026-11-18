@@ -1,0 +1,24 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<meta name="theme-color" content="#123e32"><title>EnglishBuddy — Learn • Practise • Communicate</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<div id="app">
+<header class="topbar">
+  <button class="brand" data-view="home"><span class="brand-mark">📖</span><span><b>English<span>Buddy</span></b><small>Learn · Practise · Communicate</small></span></button>
+  <nav class="desktop-nav">
+    <button data-view="home" class="nav active">⌂ Home</button><button data-view="journey" class="nav">⚑ Journey</button><button data-view="stories" class="nav">▤ Stories</button><button data-view="tour" class="nav">◎ Tour the World</button><button data-view="studios" class="nav">◉ Studios</button>
+  </nav>
+  <button class="profile" data-view="progress" aria-label="Your progress">●</button>
+</header>
+<main id="main" aria-live="polite"></main>
+<nav class="mobile-nav">
+<button data-view="home">⌂<small>Home</small></button><button data-view="journey">⚑<small>Journey</small></button><button data-view="stories">▤<small>Stories</small></button><button data-view="studios">◉<small>Studios</small></button><button data-view="progress">◷<small>Progress</small></button>
+</nav>
+</div>
+<div id="toast" role="status"></div>
+<script src="curriculum.js"></script><script src="app.js"></script>
+</body></html>
